@@ -4,7 +4,9 @@
 
 Tested on Rocky Linux 9.6 with Libreswan 4.15
 
-To make sure all traffic is encrypted between a few VMs, we can use PSK. Certificates and RSA keys are better solutions, but they take much longer to set up.
+To make sure all traffic is encrypted between a few VMs, we can use PSK.  
+
+Certificates and RSA keys are better solutions, but they take much longer to set up.
 
 Just modify ipsec_generator.sh for your IP range and then run it.
 
